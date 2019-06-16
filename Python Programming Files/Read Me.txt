@@ -1,0 +1,14 @@
+Firs Run - Update_Users_details.py - It fills random data in the table mybank.users
+Next Run - Update_Cibil_Score.py - It fills random credit scores in the table csservice.users_cs
+Next Run - update_cc_users.py - It fills credit card numbers and limits for 1000 users in the table mybank.users_ccards
+Next Run - CibilScore_Ordered.py - It gets the data from csservice.users_cs for 1000 users and update it in the table mybank.users_cs_ordered with date as current date - 10 days
+Next Run - update_pl_users.py - It fills random pl numbers in the table users_pl for 1000 users
+Next Run - update_cl_users.py - It fills random cl numbers in the table users_cl for 1000 users
+Next Run - update_hl_users.py - It fills random hl numbers in the table users_hl for 1000 users
+Next Run - update_inv_users.py - It fills random inv numbers in the table users_inv for 1000 users
+Log_File_Generation.py - Generates the log files
+
+order_creditscores.py - orders credit scores for users
+
+
+

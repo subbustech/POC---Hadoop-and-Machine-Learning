@@ -1,0 +1,43 @@
+127.0.0.1 - frank [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326 "http://www.mybank.com/start.html" "Mozilla/4.08 [en] (Win98; I ;Nav)
+127.0.0.1 - padalasubbu [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326 "http://www.mybank.com/creditcard/creditcard.html" "Mozilla/4.08 [en] (Win98; I ;Nav)
+127.0.0.1 - padalasubbu [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326 "http://www.mybank.com/creditcard/terms.html" "Mozilla/4.08 [en] (Win98; I ;Nav)
+127.0.0.1 - padalasubbu [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326 "http://www.mybank.com/creditcard/terms.html" "Mozilla/4.08 [en] (Win98; I ;Nav)
+127.0.0.1 - padalasubbu [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326 "http://www.mybank.com/creditcard/terms.html" "Mozilla/4.08 [en] (Win98; I ;Nav)
+
+
+
+
+
+Create a table with user details
+User Password FirstName LastName Gender Mobile_PhoneNo Land_PhoneNo Address
+
+Create a table for users with different credit scores from where we can order the credit score
+User CreditScore
+
+Create a table with credit score
+User CreditScore LastOrderedDate
+
+Create a table with credit card users
+user ccno limit 
+
+create a table with personal loan users
+username plnumber limit
+
+create a table with home loan users
+username hlnumber limit
+
+create a table with car loan users
+username clnumber limit
+
+create a table with different investment users
+username invtype invamount
+
+Credit Score Ranges:
+300 - 600 - Poor
+600 - 649 - Doubtful
+650 - 699 - Fair Score
+700 - 749 - Good
+750 - 900 - Very Good
+
+Credit Card Eligibility:
+https://www.kaggle.com/amarvw/customercreditcard
